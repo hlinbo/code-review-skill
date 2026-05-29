@@ -13,7 +13,7 @@
   </a>
   <img src="https://img.shields.io/badge/Claude_Code-Skill-7c3aed?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code Skill"/>
   <img src="https://img.shields.io/badge/Total_Lines-14%2C000%2B-3b82f6?style=flat-square" alt="14000+ lines"/>
-  <img src="https://img.shields.io/badge/Languages-17%2B-f59e0b?style=flat-square" alt="17+ languages"/>
+  <img src="https://img.shields.io/badge/Languages-18%2B-f59e0b?style=flat-square" alt="18+ languages"/>
   <img src="https://img.shields.io/badge/PRs-Welcome-ec4899?style=flat-square" alt="PRs Welcome"/>
 </p>
 
@@ -96,10 +96,15 @@ It covers **17+ languages and frameworks** with over **14,000 lines** of careful
       <td>~540</td>
     </tr>
     <tr>
-      <td rowspan="7"><strong>Backend</strong></td>
+      <td rowspan="8"><strong>Backend</strong></td>
       <td>&#9749; Java 17/21 + Spring Boot 3</td>
       <td><code>reference/java.md</code></td>
       <td>~800</td>
+    </tr>
+    <tr>
+      <td>&#9889; FastAPI</td>
+      <td><code>reference/fastapi.md</code></td>
+      <td>~590</td>
     </tr>
     <tr>
       <td>&#128230; NestJS</td>
@@ -228,6 +233,7 @@ code-review-skill/
 |   +-- java.md                           # Java 17/21 & Spring Boot 3
 |   +-- python.md                         # Python async, typing, pytest
 |   +-- django.md                         # Django / DRF security, serializers, async
+|   +-- fastapi.md                        # FastAPI Depends, Pydantic v2, async, test-driven verification
 |   +-- go.md                             # Go goroutines, channels, context, interfaces
 |   +-- kotlin.md                         # Kotlin / Android coroutines, Compose, Flow
 |   +-- csharp.md                         # C# 12 / .NET 8, EF Core, ASP.NET Core
@@ -410,6 +416,7 @@ MIT &copy; [awesome-skills](https://github.com/awesome-skills)
 | | &#127912; CSS / Less / Sass | `reference/css-less-sass.md` | ~660 |
 | | &#128311; TypeScript | `reference/typescript.md` | ~540 |
 | **后端** | &#9749; Java 17/21 + Spring Boot 3 | `reference/java.md` | ~800 |
+| | &#9889; FastAPI | `reference/fastapi.md` | ~590 |
 | | &#128230; NestJS | `reference/nestjs.md` | ~590 |
 | | &#128013; Django / DRF | `reference/django.md` | ~1,030 |
 | | &#128013; Python | `reference/python.md` | ~1,070 |
@@ -481,6 +488,7 @@ code-review-skill/
 |   +-- java.md                           # Java 17/21 & Spring Boot 3
 |   +-- python.md                         # Python async、类型注解、pytest
 |   +-- django.md                         # Django / DRF 安全、Serializer、异步视图
+|   +-- fastapi.md                        # FastAPI Depends、Pydantic v2、异步、测试驱动验证
 |   +-- go.md                             # Go goroutine、channel、context、接口
 |   +-- kotlin.md                         # Kotlin / Android 协程、Compose、Flow
 |   +-- csharp.md                         # C# 12 / .NET 8、EF Core、ASP.NET Core
